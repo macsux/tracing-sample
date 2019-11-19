@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsSample", "MetricsSample\MetricsSample.csproj", "{497C3BF4-EFC9-426F-8EC4-0DC4B997FCFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497C3BF4-EFC9-426F-8EC4-0DC4B997FCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497C3BF4-EFC9-426F-8EC4-0DC4B997FCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497C3BF4-EFC9-426F-8EC4-0DC4B997FCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497C3BF4-EFC9-426F-8EC4-0DC4B997FCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+---
+applications:
+- name: myzipkin
+  memory: 1G
+  instances: 1
+  path: zipkin-server-2.19.2-exec.jar
+- name: tracing-sample
+  memory: 512M
+  instances: 1
+  random-route: true
+  path: MetricsSample\bin\Debug\netcoreapp3.0\publish\
+  env:
+    management__tracing__exporter__zipkin__endpoint: https://myzipkin.apps.pcfone.io/api/v2/spans
